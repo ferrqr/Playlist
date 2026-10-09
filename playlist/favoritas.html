@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANCIONES FAVORITAS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f6d8ff, #d9c2ff);
+            color: #333;
+           min-height: 100vh;
+        }
+        nav {
+            background-color: #6f42c1;
+            padding: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+        nav a:hover {
+            background-color: #9b6de3;
+        }
+        h2 {
+            color: #6f42c1;
+            font-weight: bold;
+        }
+        .card {
+            width: 100%;
+            max-width: 280px;
+            height: 330px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            padding: 15px;
+            text-align: center;
+            margin: auto;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .card-title {
+            color: #6f42c1;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .card-text {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-nav">
+                <a class="nav-link text-white" href="index.html">Inicio</a>
+                <a class="nav-link text-white" href="artistas.html">Artistas</a>
+                <a class="nav-link text-white" href="favoritas.html">Canciones Favoritas</a>
+                <a class="nav-link text-white" href="Contacto.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container py-5">
+        <h2 class="text-center mb-3">
+            Mis canciones favoritas 
+        </h2>
+        <p class="text-center mb-5">
+            Estas son algunas de las canciones que más me gustan.
+        </p>
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="labiosc.jpg" alt="Maná">
+                    <div class="card-body">
+                        <h3 class="card-title">Maná</h3>
+                        <p class="card-text">
+                            Labios Compartidos
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="tododeti.jpg" alt="Rauw Alejandro">
+                    <div class="card-body">
+                        <h3 class="card-title">Rauw Alejandro</h3>
+                        <p class="card-text">
+                            Todo de Ti
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="tuyyo.jpg" alt="TØMBOCHIO">
+                    <div class="card-body">
+                        <h3 class="card-title">TØMBOCHIO</h3>
+                        <p class="card-text">
+                            TÚ Y YO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
